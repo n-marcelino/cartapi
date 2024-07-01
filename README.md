@@ -3,10 +3,10 @@ cart api lab exercise for react. allows for get, post, put, and delete functiona
 
 ## Screenshots
 
-#### *Get all cart items"
+#### *Get all cart items*
 ![Screenshot of get testing through postman](screenshots/get_screenshot.png)
 
-#### *Add new cart item"
+#### *Add new cart item*
 ![Screenshot of post testing through postman](screenshots/post_screenshot.png)
 
 #### *Delete existing cart item.*
