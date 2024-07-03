@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Cart</h1>
+<div>
+    <h2>Add Item</h2>
+    <form id="addItemForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="quantity" placeholder="Quantity" required>
+        <input type="number" id="price" placeholder="Price" step="0.01" required>
+        <button type="submit">Add Item</button>
+    </form>
+</div>
+<div>
+    <h2>Cart Items</h2>
+    <ul id="cartItems"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

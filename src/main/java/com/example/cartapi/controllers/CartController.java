@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 
 import com.example.cartapi.models.CartItem;
 
 @RestController
 @RequestMapping("api/cart")
+@CrossOrigin(origins = "${frontend.origin}")
 public class CartController {
     private final List<CartItem> cartItems = new ArrayList<>();
     private final AtomicInteger counter = new AtomicInteger();
